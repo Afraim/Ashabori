@@ -27,3 +27,29 @@ h6 > a:first-of-type {
 body {
 	overflow: hidden;
 }
+
+@media screen and (max-width: 400px) {
+	span {
+		font-size: 20px;
+	}
+
+	h6 > a:first-of-type {
+		font-size: 31px;
+	}
+	h6 {
+		margin: 0 0;
+		position: absolute;
+		bottom: 0.5rem;
+		right: 0.5rem;
+		font: 25px Verdana;
+		color: #eee;
+		height: 25px;
+		top: calc( 100vh - 30px );
+		text-shadow: 0 0 5px white;
+	}
+
+		h6 a {
+			text-decoration: none;
+			color: #aaa;
+		}
+}
